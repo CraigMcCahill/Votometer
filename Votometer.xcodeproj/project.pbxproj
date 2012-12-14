@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0EA17C167BA962001F8A0F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0EA17A167BA962001F8A0F /* Icon.png */; };
+		DF0EA17D167BA962001F8A0F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0EA17B167BA962001F8A0F /* Icon@2x.png */; };
+		DF101EE7163FE74300D3F68B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DE37351430E806004993CC /* QuartzCore.framework */; };
+		DF101EE8163FE74300D3F68B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E5377F142BE66300F30526 /* libz.dylib */; };
+		DF101EE9163FE74300D3F68B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00427A65142B9AEC00E5019E /* CoreVideo.framework */; };
+		DF101EEA163FE74300D3F68B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00427A63142B9A9700E5019E /* CoreMedia.framework */; };
+		DF101EEB163FE74300D3F68B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00427A61142B960D00E5019E /* AVFoundation.framework */; };
+		DF101EEC163FE74300D3F68B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00427A43142B956600E5019E /* UIKit.framework */; };
+		DF101EED163FE74300D3F68B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00427A45142B956600E5019E /* Foundation.framework */; };
+		DF101EEE163FE74300D3F68B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00427A47142B956600E5019E /* CoreGraphics.framework */; };
+		DF101EEF163FE74300D3F68B /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000B5500142FEA870076F5A1 /* OpenCV.framework */; };
+		DF101EF1163FE74300D3F68B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00427A4C142B956600E5019E /* InfoPlist.strings */; };
+		DF101EFD163FE74600D3F68B /* DemoVideoCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF101EFC163FE74600D3F68B /* DemoVideoCaptureViewController.xib */; };
+		DF818B4F164D3688008E5ADA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF818B4E164D3688008E5ADA /* Social.framework */; };
+		DF8EAE13164A90F7001B1C08 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8EAE12164A90F7001B1C08 /* Accounts.framework */; };
+		DF8EAE16164A9101001B1C08 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8EAE15164A9101001B1C08 /* Twitter.framework */; };
+		DF95F8781653D7B300118283 /* Lucecita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF95F8741653D7B300118283 /* Lucecita.otf */; };
+		DF95F87A1653D7B300118283 /* LucecitaManiacBack.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF95F8751653D7B300118283 /* LucecitaManiacBack.otf */; };
+		DF95F87C1653D7B300118283 /* LucecitaManiacFore.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF95F8761653D7B300118283 /* LucecitaManiacFore.otf */; };
+		DFA2E146167B912F00719FA5 /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E127167B912F00719FA5 /* needle.png */; };
+		DFA2E147167B912F00719FA5 /* needle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E128167B912F00719FA5 /* needle@2x.png */; };
+		DFA2E148167B912F00719FA5 /* play_btn_down.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E129167B912F00719FA5 /* play_btn_down.png */; };
+		DFA2E149167B912F00719FA5 /* play_btn_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E12A167B912F00719FA5 /* play_btn_down@2x.png */; };
+		DFA2E14A167B912F00719FA5 /* play_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E12B167B912F00719FA5 /* play_btn.png */; };
+		DFA2E14B167B912F00719FA5 /* play_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E12C167B912F00719FA5 /* play_btn@2x.png */; };
+		DFA2E14C167B912F00719FA5 /* record_btn_down.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E12D167B912F00719FA5 /* record_btn_down.png */; };
+		DFA2E14D167B912F00719FA5 /* record_btn_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E12E167B912F00719FA5 /* record_btn_down@2x.png */; };
+		DFA2E14F167B912F00719FA5 /* record_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E130167B912F00719FA5 /* record_btn.png */; };
+		DFA2E151167B912F00719FA5 /* record_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E132167B912F00719FA5 /* record_btn@2x.png */; };
+		DFA2E152167B912F00719FA5 /* stop_btn_down.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E133167B912F00719FA5 /* stop_btn_down.png */; };
+		DFA2E153167B912F00719FA5 /* stop_btn_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E134167B912F00719FA5 /* stop_btn_down@2x.png */; };
+		DFA2E154167B912F00719FA5 /* stop_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E135167B912F00719FA5 /* stop_btn.png */; };
+		DFA2E155167B912F00719FA5 /* stop_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E136167B912F00719FA5 /* stop_btn@2x.png */; };
+		DFA2E156167B912F00719FA5 /* swingometerbg.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E137167B912F00719FA5 /* swingometerbg.png */; };
+		DFA2E157167B912F00719FA5 /* swingometerbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E138167B912F00719FA5 /* swingometerbg@2x.png */; };
+		DFA2E158167B912F00719FA5 /* twitter-bird_down.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E139167B912F00719FA5 /* twitter-bird_down.png */; };
+		DFA2E159167B912F00719FA5 /* twitter-bird_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E13A167B912F00719FA5 /* twitter-bird_down@2x.png */; };
+		DFA2E15A167B912F00719FA5 /* twitter-bird-light-bgs.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E13B167B912F00719FA5 /* twitter-bird-light-bgs.png */; };
+		DFA2E15B167B912F00719FA5 /* twitter-bird.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E13C167B912F00719FA5 /* twitter-bird.png */; };
+		DFA2E15C167B912F00719FA5 /* twitter-bird@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E13D167B912F00719FA5 /* twitter-bird@2x.png */; };
+		DFA2E15D167B912F00719FA5 /* votometer_needle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E13E167B912F00719FA5 /* votometer_needle.png */; };
+		DFA2E15E167B912F00719FA5 /* votometer_needle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E13F167B912F00719FA5 /* votometer_needle@2x.png */; };
+		DFA2E15F167B912F00719FA5 /* votometer3.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E140167B912F00719FA5 /* votometer3.png */; };
+		DFA2E160167B912F00719FA5 /* votometer3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E141167B912F00719FA5 /* votometer3@2x.png */; };
+		DFA2E161167B912F00719FA5 /* votometer4.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E142167B912F00719FA5 /* votometer4.png */; };
+		DFA2E162167B912F00719FA5 /* votometer4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E143167B912F00719FA5 /* votometer4@2x.png */; };
+		DFA2E163167B912F00719FA5 /* votometer5.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E144167B912F00719FA5 /* votometer5.png */; };
+		DFA2E164167B912F00719FA5 /* votometer5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E145167B912F00719FA5 /* votometer5@2x.png */; };
+		DFD8EC4C167B9D1B00294FFE /* VideoCaptureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFD8EC4A167B9D1B00294FFE /* VideoCaptureViewController.mm */; };
+		DFD8EC4E167B9D3A00294FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD8EC4D167B9D3A00294FFE /* main.m */; };
+		DFD8EC50167B9D4C00294FFE /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = DFD8EC4F167B9D4C00294FFE /* haarcascade_frontalface_alt2.xml */; };
+		DFD8EC54167B9D5B00294FFE /* DemoVideoCaptureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFD8EC52167B9D5B00294FFE /* DemoVideoCaptureViewController.mm */; };
+		DFD8EC55167B9D5B00294FFE /* DemoVideoCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD8EC53167B9D5B00294FFE /* DemoVideoCaptureViewController.xib */; };
+		DFD8EC5A167B9D7800294FFE /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFD8EC57167B9D7800294FFE /* AppDelegate.mm */; };
+		DFD8EC5B167B9D7800294FFE /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD8EC59167B9D7800294FFE /* AutoScrollLabel.m */; };
+		DFD8EC5E167B9D8F00294FFE /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFD8EC5D167B9D8F00294FFE /* UIImage+OpenCV.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000B5500142FEA870076F5A1 /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenCV.framework; sourceTree = "<group>"; };
+		00427A43142B956600E5019E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00427A45142B956600E5019E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00427A47142B956600E5019E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00427A4D142B956600E5019E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00427A61142B960D00E5019E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		00427A63142B9A9700E5019E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		00427A65142B9AEC00E5019E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		00DE37351430E806004993CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00E5377F142BE66300F30526 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DF0EA17A167BA962001F8A0F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DF0EA17B167BA962001F8A0F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		DF101EF8163FE74300D3F68B /* Votometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Votometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF101EFC163FE74600D3F68B /* DemoVideoCaptureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DemoVideoCaptureViewController.xib; path = "Resources-iPad/Votometer/DemoVideoCaptureViewController.xib"; sourceTree = "<group>"; };
+		DF818B4E164D3688008E5ADA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		DF8EAE12164A90F7001B1C08 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		DF8EAE15164A9101001B1C08 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		DF95F8741653D7B300118283 /* Lucecita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Lucecita.otf; path = "Resources-iPad/Votometer/Lucecita.otf"; sourceTree = "<group>"; };
+		DF95F8751653D7B300118283 /* LucecitaManiacBack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LucecitaManiacBack.otf; path = "Resources-iPad/Votometer/LucecitaManiacBack.otf"; sourceTree = "<group>"; };
+		DF95F8761653D7B300118283 /* LucecitaManiacFore.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LucecitaManiacFore.otf; path = "Resources-iPad/Votometer/LucecitaManiacFore.otf"; sourceTree = "<group>"; };
+		DF95F87D1653D90800118283 /* Votometer copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Votometer copy-Info.plist"; sourceTree = "<group>"; };
+		DFA2E127167B912F00719FA5 /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = needle.png; path = "Resources-iPad/needle.png"; sourceTree = "<group>"; };
+		DFA2E128167B912F00719FA5 /* needle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "needle@2x.png"; path = "Resources-iPad/needle@2x.png"; sourceTree = "<group>"; };
+		DFA2E129167B912F00719FA5 /* play_btn_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_btn_down.png; path = "Resources-iPad/play_btn_down.png"; sourceTree = "<group>"; };
+		DFA2E12A167B912F00719FA5 /* play_btn_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play_btn_down@2x.png"; path = "Resources-iPad/play_btn_down@2x.png"; sourceTree = "<group>"; };
+		DFA2E12B167B912F00719FA5 /* play_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_btn.png; path = "Resources-iPad/play_btn.png"; sourceTree = "<group>"; };
+		DFA2E12C167B912F00719FA5 /* play_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play_btn@2x.png"; path = "Resources-iPad/play_btn@2x.png"; sourceTree = "<group>"; };
+		DFA2E12D167B912F00719FA5 /* record_btn_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record_btn_down.png; path = "Resources-iPad/record_btn_down.png"; sourceTree = "<group>"; };
+		DFA2E12E167B912F00719FA5 /* record_btn_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "record_btn_down@2x.png"; path = "Resources-iPad/record_btn_down@2x.png"; sourceTree = "<group>"; };
+		DFA2E130167B912F00719FA5 /* record_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record_btn.png; path = "Resources-iPad/record_btn.png"; sourceTree = "<group>"; };
+		DFA2E132167B912F00719FA5 /* record_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "record_btn@2x.png"; path = "Resources-iPad/record_btn@2x.png"; sourceTree = "<group>"; };
+		DFA2E133167B912F00719FA5 /* stop_btn_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop_btn_down.png; path = "Resources-iPad/stop_btn_down.png"; sourceTree = "<group>"; };
+		DFA2E134167B912F00719FA5 /* stop_btn_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stop_btn_down@2x.png"; path = "Resources-iPad/stop_btn_down@2x.png"; sourceTree = "<group>"; };
+		DFA2E135167B912F00719FA5 /* stop_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop_btn.png; path = "Resources-iPad/stop_btn.png"; sourceTree = "<group>"; };
+		DFA2E136167B912F00719FA5 /* stop_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stop_btn@2x.png"; path = "Resources-iPad/stop_btn@2x.png"; sourceTree = "<group>"; };
+		DFA2E137167B912F00719FA5 /* swingometerbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swingometerbg.png; path = "Resources-iPad/swingometerbg.png"; sourceTree = "<group>"; };
+		DFA2E138167B912F00719FA5 /* swingometerbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "swingometerbg@2x.png"; path = "Resources-iPad/swingometerbg@2x.png"; sourceTree = "<group>"; };
+		DFA2E139167B912F00719FA5 /* twitter-bird_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-bird_down.png"; path = "Resources-iPad/twitter-bird_down.png"; sourceTree = "<group>"; };
+		DFA2E13A167B912F00719FA5 /* twitter-bird_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-bird_down@2x.png"; path = "Resources-iPad/twitter-bird_down@2x.png"; sourceTree = "<group>"; };
+		DFA2E13B167B912F00719FA5 /* twitter-bird-light-bgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-bird-light-bgs.png"; path = "Resources-iPad/twitter-bird-light-bgs.png"; sourceTree = "<group>"; };
+		DFA2E13C167B912F00719FA5 /* twitter-bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-bird.png"; path = "Resources-iPad/twitter-bird.png"; sourceTree = "<group>"; };
+		DFA2E13D167B912F00719FA5 /* twitter-bird@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-bird@2x.png"; path = "Resources-iPad/twitter-bird@2x.png"; sourceTree = "<group>"; };
+		DFA2E13E167B912F00719FA5 /* votometer_needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = votometer_needle.png; path = "Resources-iPad/votometer_needle.png"; sourceTree = "<group>"; };
+		DFA2E13F167B912F00719FA5 /* votometer_needle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "votometer_needle@2x.png"; path = "Resources-iPad/votometer_needle@2x.png"; sourceTree = "<group>"; };
+		DFA2E140167B912F00719FA5 /* votometer3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = votometer3.png; path = "Resources-iPad/votometer3.png"; sourceTree = "<group>"; };
+		DFA2E141167B912F00719FA5 /* votometer3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "votometer3@2x.png"; path = "Resources-iPad/votometer3@2x.png"; sourceTree = "<group>"; };
+		DFA2E142167B912F00719FA5 /* votometer4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = votometer4.png; path = "Resources-iPad/votometer4.png"; sourceTree = "<group>"; };
+		DFA2E143167B912F00719FA5 /* votometer4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "votometer4@2x.png"; path = "Resources-iPad/votometer4@2x.png"; sourceTree = "<group>"; };
+		DFA2E144167B912F00719FA5 /* votometer5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = votometer5.png; path = "Resources-iPad/votometer5.png"; sourceTree = "<group>"; };
+		DFA2E145167B912F00719FA5 /* votometer5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "votometer5@2x.png"; path = "Resources-iPad/votometer5@2x.png"; sourceTree = "<group>"; };
+		DFD8EC49167B9D1B00294FFE /* VideoCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCaptureViewController.h; sourceTree = "<group>"; };
+		DFD8EC4A167B9D1B00294FFE /* VideoCaptureViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoCaptureViewController.mm; sourceTree = "<group>"; };
+		DFD8EC4B167B9D1B00294FFE /* Votometer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Votometer-Prefix.pch"; sourceTree = "<group>"; };
+		DFD8EC4D167B9D3A00294FFE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFD8EC4F167B9D4C00294FFE /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		DFD8EC51167B9D5B00294FFE /* DemoVideoCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVideoCaptureViewController.h; sourceTree = "<group>"; };
+		DFD8EC52167B9D5B00294FFE /* DemoVideoCaptureViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DemoVideoCaptureViewController.mm; sourceTree = "<group>"; };
+		DFD8EC53167B9D5B00294FFE /* DemoVideoCaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoVideoCaptureViewController.xib; sourceTree = "<group>"; };
+		DFD8EC56167B9D7800294FFE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFD8EC57167B9D7800294FFE /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		DFD8EC58167B9D7800294FFE /* AutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollLabel.h; sourceTree = "<group>"; };
+		DFD8EC59167B9D7800294FFE /* AutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollLabel.m; sourceTree = "<group>"; };
+		DFD8EC5C167B9D8F00294FFE /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		DFD8EC5D167B9D8F00294FFE /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF101EE6163FE74300D3F68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF818B4F164D3688008E5ADA /* Social.framework in Frameworks */,
+				DF8EAE16164A9101001B1C08 /* Twitter.framework in Frameworks */,
+				DF8EAE13164A90F7001B1C08 /* Accounts.framework in Frameworks */,
+				DF101EE7163FE74300D3F68B /* QuartzCore.framework in Frameworks */,
+				DF101EE8163FE74300D3F68B /* libz.dylib in Frameworks */,
+				DF101EE9163FE74300D3F68B /* CoreVideo.framework in Frameworks */,
+				DF101EEA163FE74300D3F68B /* CoreMedia.framework in Frameworks */,
+				DF101EEB163FE74300D3F68B /* AVFoundation.framework in Frameworks */,
+				DF101EEC163FE74300D3F68B /* UIKit.framework in Frameworks */,
+				DF101EED163FE74300D3F68B /* Foundation.framework in Frameworks */,
+				DF101EEE163FE74300D3F68B /* CoreGraphics.framework in Frameworks */,
+				DF101EEF163FE74300D3F68B /* OpenCV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000B551014326D2F0076F5A1 /* UIImage Additions */ = {
+			isa = PBXGroup;
+			children = (
+				DFD8EC5C167B9D8F00294FFE /* UIImage+OpenCV.h */,
+				DFD8EC5D167B9D8F00294FFE /* UIImage+OpenCV.mm */,
+			);
+			name = "UIImage Additions";
+			sourceTree = "<group>";
+		};
+		00427A34142B956500E5019E = {
+			isa = PBXGroup;
+			children = (
+				DF0EA17A167BA962001F8A0F /* Icon.png */,
+				DF0EA17B167BA962001F8A0F /* Icon@2x.png */,
+				DF95F87D1653D90800118283 /* Votometer copy-Info.plist */,
+				DF101EFA163FE74300D3F68B /* Resources-iPad */,
+				00427A49142B956600E5019E /* Votometer */,
+				00427A42142B956600E5019E /* Frameworks */,
+				00427A40142B956600E5019E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00427A40142B956600E5019E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF101EF8163FE74300D3F68B /* Votometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00427A42142B956600E5019E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF818B4E164D3688008E5ADA /* Social.framework */,
+				DF8EAE15164A9101001B1C08 /* Twitter.framework */,
+				DF8EAE12164A90F7001B1C08 /* Accounts.framework */,
+				00E5377F142BE66300F30526 /* libz.dylib */,
+				000B5500142FEA870076F5A1 /* OpenCV.framework */,
+				00DE37351430E806004993CC /* QuartzCore.framework */,
+				00427A65142B9AEC00E5019E /* CoreVideo.framework */,
+				00427A63142B9A9700E5019E /* CoreMedia.framework */,
+				00427A61142B960D00E5019E /* AVFoundation.framework */,
+				00427A43142B956600E5019E /* UIKit.framework */,
+				00427A45142B956600E5019E /* Foundation.framework */,
+				00427A47142B956600E5019E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00427A49142B956600E5019E /* Votometer */ = {
+			isa = PBXGroup;
+			children = (
+				DFD8EC51167B9D5B00294FFE /* DemoVideoCaptureViewController.h */,
+				DFD8EC52167B9D5B00294FFE /* DemoVideoCaptureViewController.mm */,
+				DFD8EC53167B9D5B00294FFE /* DemoVideoCaptureViewController.xib */,
+				DFD8EC49167B9D1B00294FFE /* VideoCaptureViewController.h */,
+				DFD8EC4F167B9D4C00294FFE /* haarcascade_frontalface_alt2.xml */,
+				DFD8EC4A167B9D1B00294FFE /* VideoCaptureViewController.mm */,
+				DFD8EC56167B9D7800294FFE /* AppDelegate.h */,
+				DFD8EC57167B9D7800294FFE /* AppDelegate.mm */,
+				DFD8EC58167B9D7800294FFE /* AutoScrollLabel.h */,
+				DFD8EC59167B9D7800294FFE /* AutoScrollLabel.m */,
+				000B551014326D2F0076F5A1 /* UIImage Additions */,
+				00F85B05142D54020099F79C /* Resources */,
+				00427A4A142B956600E5019E /* Supporting Files */,
+			);
+			path = Votometer;
+			sourceTree = "<group>";
+		};
+		00427A4A142B956600E5019E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFD8EC4B167B9D1B00294FFE /* Votometer-Prefix.pch */,
+				DFD8EC4D167B9D3A00294FFE /* main.m */,
+				00427A4C142B956600E5019E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00F85B05142D54020099F79C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DF101EFA163FE74300D3F68B /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				DFA2E127167B912F00719FA5 /* needle.png */,
+				DFA2E128167B912F00719FA5 /* needle@2x.png */,
+				DFA2E129167B912F00719FA5 /* play_btn_down.png */,
+				DFA2E12A167B912F00719FA5 /* play_btn_down@2x.png */,
+				DFA2E12B167B912F00719FA5 /* play_btn.png */,
+				DFA2E12C167B912F00719FA5 /* play_btn@2x.png */,
+				DFA2E12D167B912F00719FA5 /* record_btn_down.png */,
+				DFA2E12E167B912F00719FA5 /* record_btn_down@2x.png */,
+				DFA2E130167B912F00719FA5 /* record_btn.png */,
+				DFA2E132167B912F00719FA5 /* record_btn@2x.png */,
+				DFA2E133167B912F00719FA5 /* stop_btn_down.png */,
+				DFA2E134167B912F00719FA5 /* stop_btn_down@2x.png */,
+				DFA2E135167B912F00719FA5 /* stop_btn.png */,
+				DFA2E136167B912F00719FA5 /* stop_btn@2x.png */,
+				DFA2E137167B912F00719FA5 /* swingometerbg.png */,
+				DFA2E138167B912F00719FA5 /* swingometerbg@2x.png */,
+				DFA2E139167B912F00719FA5 /* twitter-bird_down.png */,
+				DFA2E13A167B912F00719FA5 /* twitter-bird_down@2x.png */,
+				DFA2E13B167B912F00719FA5 /* twitter-bird-light-bgs.png */,
+				DFA2E13C167B912F00719FA5 /* twitter-bird.png */,
+				DFA2E13D167B912F00719FA5 /* twitter-bird@2x.png */,
+				DFA2E13E167B912F00719FA5 /* votometer_needle.png */,
+				DFA2E13F167B912F00719FA5 /* votometer_needle@2x.png */,
+				DFA2E140167B912F00719FA5 /* votometer3.png */,
+				DFA2E141167B912F00719FA5 /* votometer3@2x.png */,
+				DFA2E142167B912F00719FA5 /* votometer4.png */,
+				DFA2E143167B912F00719FA5 /* votometer4@2x.png */,
+				DFA2E144167B912F00719FA5 /* votometer5.png */,
+				DFA2E145167B912F00719FA5 /* votometer5@2x.png */,
+				DF95F8741653D7B300118283 /* Lucecita.otf */,
+				DF95F8751653D7B300118283 /* LucecitaManiacBack.otf */,
+				DF95F8761653D7B300118283 /* LucecitaManiacFore.otf */,
+				DF101EFC163FE74600D3F68B /* DemoVideoCaptureViewController.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF101EDF163FE74300D3F68B /* Votometer-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF101EF5163FE74300D3F68B /* Build configuration list for PBXNativeTarget "Votometer-iPad" */;
+			buildPhases = (
+				DF101EE0163FE74300D3F68B /* Sources */,
+				DF101EE6163FE74300D3F68B /* Frameworks */,
+				DF101EF0163FE74300D3F68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Votometer-iPad";
+			productName = VidTest;
+			productReference = DF101EF8163FE74300D3F68B /* Votometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00427A36142B956500E5019E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 00427A39142B956500E5019E /* Build configuration list for PBXProject "Votometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00427A34142B956500E5019E;
+			productRefGroup = 00427A40142B956600E5019E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF101EDF163FE74300D3F68B /* Votometer-iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF101EF0163FE74300D3F68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF101EF1163FE74300D3F68B /* InfoPlist.strings in Resources */,
+				DF101EFD163FE74600D3F68B /* DemoVideoCaptureViewController.xib in Resources */,
+				DF95F8781653D7B300118283 /* Lucecita.otf in Resources */,
+				DF95F87A1653D7B300118283 /* LucecitaManiacBack.otf in Resources */,
+				DF95F87C1653D7B300118283 /* LucecitaManiacFore.otf in Resources */,
+				DFA2E146167B912F00719FA5 /* needle.png in Resources */,
+				DFA2E147167B912F00719FA5 /* needle@2x.png in Resources */,
+				DFA2E148167B912F00719FA5 /* play_btn_down.png in Resources */,
+				DFA2E149167B912F00719FA5 /* play_btn_down@2x.png in Resources */,
+				DFA2E14A167B912F00719FA5 /* play_btn.png in Resources */,
+				DFA2E14B167B912F00719FA5 /* play_btn@2x.png in Resources */,
+				DFA2E14C167B912F00719FA5 /* record_btn_down.png in Resources */,
+				DFA2E14D167B912F00719FA5 /* record_btn_down@2x.png in Resources */,
+				DFA2E14F167B912F00719FA5 /* record_btn.png in Resources */,
+				DFA2E151167B912F00719FA5 /* record_btn@2x.png in Resources */,
+				DFA2E152167B912F00719FA5 /* stop_btn_down.png in Resources */,
+				DFA2E153167B912F00719FA5 /* stop_btn_down@2x.png in Resources */,
+				DFA2E154167B912F00719FA5 /* stop_btn.png in Resources */,
+				DFA2E155167B912F00719FA5 /* stop_btn@2x.png in Resources */,
+				DFA2E156167B912F00719FA5 /* swingometerbg.png in Resources */,
+				DFA2E157167B912F00719FA5 /* swingometerbg@2x.png in Resources */,
+				DFA2E158167B912F00719FA5 /* twitter-bird_down.png in Resources */,
+				DFA2E159167B912F00719FA5 /* twitter-bird_down@2x.png in Resources */,
+				DFA2E15A167B912F00719FA5 /* twitter-bird-light-bgs.png in Resources */,
+				DFA2E15B167B912F00719FA5 /* twitter-bird.png in Resources */,
+				DFA2E15C167B912F00719FA5 /* twitter-bird@2x.png in Resources */,
+				DFA2E15D167B912F00719FA5 /* votometer_needle.png in Resources */,
+				DFA2E15E167B912F00719FA5 /* votometer_needle@2x.png in Resources */,
+				DFA2E15F167B912F00719FA5 /* votometer3.png in Resources */,
+				DFA2E160167B912F00719FA5 /* votometer3@2x.png in Resources */,
+				DFA2E161167B912F00719FA5 /* votometer4.png in Resources */,
+				DFA2E162167B912F00719FA5 /* votometer4@2x.png in Resources */,
+				DFA2E163167B912F00719FA5 /* votometer5.png in Resources */,
+				DFA2E164167B912F00719FA5 /* votometer5@2x.png in Resources */,
+				DFD8EC50167B9D4C00294FFE /* haarcascade_frontalface_alt2.xml in Resources */,
+				DFD8EC55167B9D5B00294FFE /* DemoVideoCaptureViewController.xib in Resources */,
+				DF0EA17C167BA962001F8A0F /* Icon.png in Resources */,
+				DF0EA17D167BA962001F8A0F /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF101EE0163FE74300D3F68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD8EC4C167B9D1B00294FFE /* VideoCaptureViewController.mm in Sources */,
+				DFD8EC4E167B9D3A00294FFE /* main.m in Sources */,
+				DFD8EC54167B9D5B00294FFE /* DemoVideoCaptureViewController.mm in Sources */,
+				DFD8EC5A167B9D7800294FFE /* AppDelegate.mm in Sources */,
+				DFD8EC5B167B9D7800294FFE /* AutoScrollLabel.m in Sources */,
+				DFD8EC5E167B9D8F00294FFE /* UIImage+OpenCV.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00427A4C142B956600E5019E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00427A4D142B956600E5019E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00427A5B142B956600E5019E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = Votometer;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00427A5C142B956600E5019E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = Votometer;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF101EF6163FE74300D3F68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Votometer/Votometer-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Votometer copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = Votometer;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF101EF7163FE74300D3F68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Votometer/Votometer-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Votometer copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = Votometer;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00427A39142B956500E5019E /* Build configuration list for PBXProject "Votometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00427A5B142B956600E5019E /* Debug */,
+				00427A5C142B956600E5019E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF101EF5163FE74300D3F68B /* Build configuration list for PBXNativeTarget "Votometer-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF101EF6163FE74300D3F68B /* Debug */,
+				DF101EF7163FE74300D3F68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00427A36142B956500E5019E /* Project object */;
+}
