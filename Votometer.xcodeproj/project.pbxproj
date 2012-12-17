@@ -57,7 +57,6 @@
 		DFA2E164167B912F00719FA5 /* votometer5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA2E145167B912F00719FA5 /* votometer5@2x.png */; };
 		DFD8EC4C167B9D1B00294FFE /* VideoCaptureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFD8EC4A167B9D1B00294FFE /* VideoCaptureViewController.mm */; };
 		DFD8EC4E167B9D3A00294FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD8EC4D167B9D3A00294FFE /* main.m */; };
-		DFD8EC50167B9D4C00294FFE /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = DFD8EC4F167B9D4C00294FFE /* haarcascade_frontalface_alt2.xml */; };
 		DFD8EC54167B9D5B00294FFE /* DemoVideoCaptureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFD8EC52167B9D5B00294FFE /* DemoVideoCaptureViewController.mm */; };
 		DFD8EC55167B9D5B00294FFE /* DemoVideoCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD8EC53167B9D5B00294FFE /* DemoVideoCaptureViewController.xib */; };
 		DFD8EC5A167B9D7800294FFE /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFD8EC57167B9D7800294FFE /* AppDelegate.mm */; };
@@ -120,7 +119,6 @@
 		DFD8EC4A167B9D1B00294FFE /* VideoCaptureViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoCaptureViewController.mm; sourceTree = "<group>"; };
 		DFD8EC4B167B9D1B00294FFE /* Votometer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Votometer-Prefix.pch"; sourceTree = "<group>"; };
 		DFD8EC4D167B9D3A00294FFE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DFD8EC4F167B9D4C00294FFE /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
 		DFD8EC51167B9D5B00294FFE /* DemoVideoCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVideoCaptureViewController.h; sourceTree = "<group>"; };
 		DFD8EC52167B9D5B00294FFE /* DemoVideoCaptureViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DemoVideoCaptureViewController.mm; sourceTree = "<group>"; };
 		DFD8EC53167B9D5B00294FFE /* DemoVideoCaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoVideoCaptureViewController.xib; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 				DFD8EC52167B9D5B00294FFE /* DemoVideoCaptureViewController.mm */,
 				DFD8EC53167B9D5B00294FFE /* DemoVideoCaptureViewController.xib */,
 				DFD8EC49167B9D1B00294FFE /* VideoCaptureViewController.h */,
-				DFD8EC4F167B9D4C00294FFE /* haarcascade_frontalface_alt2.xml */,
 				DFD8EC4A167B9D1B00294FFE /* VideoCaptureViewController.mm */,
 				DFD8EC56167B9D7800294FFE /* AppDelegate.h */,
 				DFD8EC57167B9D7800294FFE /* AppDelegate.mm */,
@@ -365,7 +362,6 @@
 				DFA2E162167B912F00719FA5 /* votometer4@2x.png in Resources */,
 				DFA2E163167B912F00719FA5 /* votometer5.png in Resources */,
 				DFA2E164167B912F00719FA5 /* votometer5@2x.png in Resources */,
-				DFD8EC50167B9D4C00294FFE /* haarcascade_frontalface_alt2.xml in Resources */,
 				DFD8EC55167B9D5B00294FFE /* DemoVideoCaptureViewController.xib in Resources */,
 				DF0EA17C167BA962001F8A0F /* Icon.png in Resources */,
 				DF0EA17D167BA962001F8A0F /* Icon@2x.png in Resources */,

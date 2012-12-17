@@ -65,6 +65,8 @@
              curve:(int)curve degrees:(CGFloat)degrees;
 //- (void)animationDidStop:(NSString*)animationID finished:(BOOL)finished context:(void *)context;
 
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag;
+
 -(void)initAudioRecorder;
 -(IBAction) recordAudio;
 -(IBAction) playAudio;

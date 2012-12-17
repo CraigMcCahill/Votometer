@@ -222,6 +222,17 @@
     }
 }
 
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    stopButton.enabled = NO;
+    stopButton.alpha = 0.4;
+    playButton.enabled = YES;
+    playButton.alpha = 1.0;
+    recordButton.enabled = YES;
+    recordButton.alpha = 1.0;
+    
+}
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
