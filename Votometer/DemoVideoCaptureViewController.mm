@@ -76,9 +76,9 @@
     //swingometer
     _imageToMove = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"votometer_needle.png"]];
     
-    _imageToMove.frame = CGRectMake(489, 266, 48, 439);
+    _imageToMove.frame = CGRectMake(489, 270, 48, 439);
     [self.view addSubview:_imageToMove];
-    [_imageToMove.layer setAnchorPoint:CGPointMake(0.5, 0.965)];
+    [_imageToMove.layer setAnchorPoint:CGPointMake(0.5, 0.94)];
     _counter = 1;
     
     
